@@ -40,14 +40,13 @@ class UsersPresenter(val usersRepo: GithubUsersRepo, val router: Router) : MvpPr
 
     fun loadData() {
         val users = usersRepo.getUsers()
-      /*  users.subscribe(
+        users.subscribe(
            { s -> usersListPresenter.users.add(s) },
             { e -> println(e) },
             {      println("onComplete") }
-        ) */
+        )
 
-        usersListPresenter.users.addAll(users)
-        viewState.updateList()
+        
     }
 
     fun backPressed(): Boolean {
