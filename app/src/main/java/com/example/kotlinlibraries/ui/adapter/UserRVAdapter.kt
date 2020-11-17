@@ -1,12 +1,9 @@
-package com.kotlin.geekbrains_dlls.ui.adapter
+package com.example.kotlinlibraries.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.kotlin.geekbrains_dlls.R
-import com.kotlin.geekbrains_dlls.mvp.presenter.list.IUserListPresenter
-import com.kotlin.geekbrains_dlls.mvp.view.UserItemView
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_user.view.*
 

@@ -1,4 +1,4 @@
-package com.kotlin.geekbrains_dlls.mvp.model
+package com.example.kotlinlibraries.mvp.model
 
 class CountersModel {
     val counters = mutableListOf(0, 0, 0)

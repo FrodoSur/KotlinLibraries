@@ -1,4 +1,4 @@
-package com.kotlin.geekbrains_dlls.ui
+package com.example.kotlinlibraries.ui
 
 interface BackButtonListener {
     fun backPressed(): Boolean

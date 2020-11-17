@@ -5,12 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.kotlin.geekbrains_dlls.App
+import com.example.kotlinlibraries.App
 import com.kotlin.geekbrains_dlls.R
-import com.kotlin.geekbrains_dlls.mvp.model.GithubUsersRepo
+import com.example.kotlinlibraries.mvp.model.GithubUsersRepo
 import com.kotlin.geekbrains_dlls.mvp.presenter.UsersPresenter
 import com.kotlin.geekbrains_dlls.mvp.view.UsersView
-import com.kotlin.geekbrains_dlls.ui.adapter.UsersRVAdapter
+import com.example.kotlinlibraries.ui.adapter.UsersRVAdapter
 import kotlinx.android.synthetic.main.fragment_users.*
 import moxy.MvpAppCompatFragment
 import moxy.ktx.moxyPresenter

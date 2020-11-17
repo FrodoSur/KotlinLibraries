@@ -1,14 +1,6 @@
-package com.kotlin.geekbrains_dlls
+package com.example.kotlinlibraries
 
 import android.os.Bundle
-import com.example.kotlinlibraries.R
-import com.kotlin.geekbrains_dlls.mvp.presenter.MainPresenter
-import com.kotlin.geekbrains_dlls.mvp.view.MainView
-import com.kotlin.geekbrains_dlls.ui.BackButtonListener
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.fragment_users.*
-import moxy.MvpAppCompatActivity
-import moxy.ktx.moxyPresenter
 import ru.terrakok.cicerone.android.support.SupportAppNavigator
 
 class MainActivity : MvpAppCompatActivity(), MainView {

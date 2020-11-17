@@ -1,4 +1,4 @@
-package com.kotlin.geekbrains_dlls.mvp.model
+package com.example.kotlinlibraries.mvp.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

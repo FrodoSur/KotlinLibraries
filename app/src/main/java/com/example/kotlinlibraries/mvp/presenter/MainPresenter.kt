@@ -1,9 +1,7 @@
-package com.kotlin.geekbrains_dlls.mvp.presenter
+package com.example.kotlinlibraries.mvp.presenter
 
 import com.kotlin.geekbrains_dlls.mvp.view.MainView
-import com.kotlin.geekbrains_dlls.navigation.Screens
-import moxy.MvpPresenter
-import ru.terrakok.cicerone.Router
+import com.example.kotlinlibraries.navigation.Screens
 
 class MainPresenter(val router: Router) : MvpPresenter<MainView>() {
 

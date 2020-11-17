@@ -1,4 +1,4 @@
-package com.kotlin.geekbrains_dlls.mvp.presenter.list
+package com.example.kotlinlibraries.mvp.presenter.list
 
 import com.kotlin.geekbrains_dlls.mvp.view.UserItemView
 

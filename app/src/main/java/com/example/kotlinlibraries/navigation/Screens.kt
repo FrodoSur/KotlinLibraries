@@ -1,7 +1,7 @@
-package com.kotlin.geekbrains_dlls.navigation
+package com.example.kotlinlibraries.navigation
 
-import com.kotlin.geekbrains_dlls.mvp.model.GithubUser
-import com.kotlin.geekbrains_dlls.ui.fragments.UserFragment
+import com.example.kotlinlibraries.mvp.model.GithubUser
+import com.example.kotlinlibraries.ui.fragments.UserFragment
 import com.kotlin.geekbrains_dlls.ui.fragments.UsersFragment
 import ru.terrakok.cicerone.android.support.SupportAppScreen
 

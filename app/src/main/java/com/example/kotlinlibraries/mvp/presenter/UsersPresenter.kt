@@ -1,12 +1,11 @@
 package com.kotlin.geekbrains_dlls.mvp.presenter
 
-import android.util.Log
-import com.kotlin.geekbrains_dlls.mvp.model.GithubUser
-import com.kotlin.geekbrains_dlls.mvp.model.GithubUsersRepo
-import com.kotlin.geekbrains_dlls.mvp.presenter.list.IUserListPresenter
+import com.example.kotlinlibraries.mvp.model.GithubUser
+import com.example.kotlinlibraries.mvp.model.GithubUsersRepo
+import com.example.kotlinlibraries.mvp.presenter.list.IUserListPresenter
 import com.kotlin.geekbrains_dlls.mvp.view.UserItemView
 import com.kotlin.geekbrains_dlls.mvp.view.UsersView
-import com.kotlin.geekbrains_dlls.navigation.Screens
+import com.example.kotlinlibraries.navigation.Screens
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.functions.Action
 import io.reactivex.rxjava3.functions.Consumer

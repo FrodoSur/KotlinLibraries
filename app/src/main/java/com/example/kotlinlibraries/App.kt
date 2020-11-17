@@ -1,8 +1,6 @@
-package com.kotlin.geekbrains_dlls
+package com.example.kotlinlibraries
 
 import android.app.Application
-import ru.terrakok.cicerone.Cicerone
-import ru.terrakok.cicerone.Router
 
 class App : Application() {
     companion object {

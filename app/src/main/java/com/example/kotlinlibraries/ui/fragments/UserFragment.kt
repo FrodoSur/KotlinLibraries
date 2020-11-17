@@ -1,14 +1,10 @@
-package com.kotlin.geekbrains_dlls.ui.fragments
+package com.example.kotlinlibraries.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.kotlin.geekbrains_dlls.R
-import com.kotlin.geekbrains_dlls.common.Constants
-import com.kotlin.geekbrains_dlls.mvp.model.GithubUser
-import moxy.MvpAppCompatFragment
 
 class UserFragment : MvpAppCompatFragment() {
     companion object {

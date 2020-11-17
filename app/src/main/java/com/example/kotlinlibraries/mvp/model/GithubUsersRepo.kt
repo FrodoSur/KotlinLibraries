@@ -1,6 +1,6 @@
-package com.kotlin.geekbrains_dlls.mvp.model
+package com.example.kotlinlibraries.mvp.model
 
-import io.reactivex.rxjava3.core.Observable
+import java.util.*
 
 class GithubUsersRepo {
     private val repositories = listOf(
@@ -16,6 +16,6 @@ class GithubUsersRepo {
     } */
 
     fun getUsers() : List<GithubUser> {
-        return repositories
+        return  repositories
     }
 }
